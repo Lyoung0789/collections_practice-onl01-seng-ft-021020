@@ -29,3 +29,10 @@ def kesha_maker (array)
     word = i.split("")
     word[2]="$"
     new_array<<word.join()
+  end 
+  return new_array 
+end 
+
+def find_a (array)
+  
+end
