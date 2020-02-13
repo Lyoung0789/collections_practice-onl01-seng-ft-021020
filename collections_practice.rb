@@ -38,3 +38,4 @@ def find_a(array)
     n.start_with?("a")
   end
 end
+
