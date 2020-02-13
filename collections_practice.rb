@@ -24,6 +24,11 @@ def reverse_array(array)
 end
 
 def kesha_maker (array)
-  
-  
+  new_array=[]
+  array.each do |i|
+    word = i.split("")
+    word[2]="$"
+    new_array<<word.join()
+  end
+  return new_array
 end
