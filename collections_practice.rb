@@ -10,3 +10,10 @@ end
 def sort_array_char_count(array)
   array.sort{|a,b| a.length<=>b.length}
 end
+
+def swap_elements(array)
+  second_element = array[1]
+  third_element = array[2]
+  array[2] = second_element
+  array[1] = third_element
+end
